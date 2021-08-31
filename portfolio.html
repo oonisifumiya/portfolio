@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--
+        レスポンシブの設定
+        ・viewportの設定
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- このサイトは何か説明する場所 -->
+    <meta name="description" content="大西史弥の自己紹介" />
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- タイトル設定 -->
+    <title>portfolio</title>
+</head>
+<body>
+    <!-- headerタグの作成
+    ・ロゴの作成
+    ・h1タグ、aタグ、spanタグを使って作成 -->
+
+    <header>
+    <h1 class="header_wrapper">
+        <a href="#"> <span class="color_green">P</span>ortfolio </a>
+    </h1>
+    </header>
+
+    <!-- mainダグの作成
+        ・profile用とwork用の箱を作成する
+        ->divタグを使用
+    -->
+    <main>
+    <div class="main_wrapper">
+
+        <!-- プロフィールの箱 -->
+        
+        <div class="profile_wrapper">
+            <h2 class="sub_title">
+                <span class="color_green">P</span>rofile
+            </h2>
+            <div class="item_list">
+                <img class="pro_icon" src="img/アイコン画像.jpg" alt="プロフィール画像" />
+                <b>大西　史弥</b>
+                <p class="color_green">HTML / CSS / PHP / MyQL / CodeIgniter / Adobe XD</p>
+                <p>
+                    はじめまして。愛媛県を拠点にWebエンジニアとして活動させていただいております大西と申します。
+                    ５年ほど自動車会社で営業をし退職後フリーにてWeb制作をさせていただいております。
+                    また、大学まではサッカーをしており今でも趣味程度ですが行っております。
+                </p>
+            </div>
+            <ul class="icon_list">
+                <li>
+                    <a href="https://github.com/">
+                        <img class="git_icon" src="img/github-sign.svg" alt="Githubアイコン">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/fumiya_ohnishi">
+                        <img class="twitter_icon" src="img/twitter.svg" alt="twitterのアイコン">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- workの箱 -->
+
+        <div class="works_wrapper">
+            <h2 class="sub_title">
+                <span class="color_green">W</span>ork
+            </h2>
+
+            <ul class="works_list">
+                
+                <li>
+                    <img class="work_icon" src="img/HP.jpg" alt="HPのアイコン">
+                    <h3>HP</h3>
+                    <span>WordPress</span>
+                    <div class="link">
+                        <a href="https://fuminana.com/">Webサイト</a>
+                        <!-- <a href="#">GitHab</a> -->
+                    </div>
+                </li>
+                <li>
+                    <img class="work_icon" src="img/blog.jpg" alt="ブログのアイコン">
+                    <h3>BLOG</h3>
+                    <span>WordPress</span>
+                    <div class="link">
+                        <a href="https://www.fumiyaohnishi.com/">Webサイト</a>
+                        <!-- <a href="#">GitHab</a> -->
+                    </div>
+                </li>
+                <li>
+                    <img class="work_icon" src="img/demo1.jpg" alt="デモのアイコン">
+                    <h3>デモサイト１</h3>
+                    <span>HTML / CSS</span>
+                    <div class="link">
+                        <a href="https://fashion-demo1.herokuapp.com/">Webサイト</a>
+                        <a href="https://github.com/oonisifumiya/fashion-demo">GitHab</a>
+                    </div>
+                </li>
+
+                <li>
+                    <img class="work_icon" src="img/demo2.jpg" alt="デモのアイコン">
+                    <h3>デモサイト2</h3>
+                    <span>HTML / CSS</span>
+                    <div class="link">
+                        <a href="https://fashion-demo2.herokuapp.com/">Webサイト</a>
+                        <a href="https://github.com/oonisifumiya/fashion-demo2">GitHab</a>
+                    </div>
+                </li>
+                <li>
+                    <img class="work_icon" src="img/demo3.jpg" alt="デモのアイコン">
+                    <h3>デモサイト3</h3>
+                    <span>HTML / CSS</span>
+                    <div class="link">
+                        <a href="https://bicycle-demo1.herokuapp.com/">Webサイト</a>
+                        <a href="https://github.com/oonisifumiya/bicycle-demo">GitHab</a>
+                    </div>
+                </li>
+                <li>
+                    <img class="work_icon" src="img/photographer.png" alt="デモのアイコン">
+                    <h3>チャモロ写真工房</h3>
+                    <span>HTML / CSS / jQuery</span>
+                    <div class="link">
+                        <a href="https://www.chamoro.info/">Webサイト</a>
+                    </div>
+                </li>
+                <li>
+                    <img class="work_icon" src="img/kingofmerry.png" alt="デモのアイコン">
+                    <h3>チーム開発作品</h3>
+                    <span>HTML / CSS /jQuery / github</span>
+                    <div class="link">
+                        <a href="https://bicycle-demo1.herokuapp.com/">Webサイト</a>
+                        <a href="https://github.com/oonisifumiya/kingofmerry">GitHab</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!-- 
+    footer作成
+    copyrightの設定
+    <p>タグを使用
+-->
+
+    <footer class="block_footer">
+        <p>
+            copyright ＠TECH I.S.　Inc.
+        </p>
+    </footer>
+    
+    </main>
+</body>
+</html>

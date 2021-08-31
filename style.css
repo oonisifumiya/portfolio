@@ -1,0 +1,244 @@
+/* 画面のスタイルシート */
+
+body {
+    font-family: "Noto Sans JP","sans-serif";
+    margin: 0;
+    min-width: 1076px;
+}
+
+.color_green {
+    color: #00ABAE;
+}
+
+.sub_title {
+    font-size: 32px;
+}
+/* headerのスタイルシート */
+
+.header_wrapper {
+    margin: 10px;
+    padding: 0 20px 10px;
+    box-shadow: 0 10px 10px -5px rgba(204,204,204,0.3);
+}
+
+.header_wrapper a {
+    font-size: 40px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+
+
+/* mainタグのスタイル */
+
+.main_wrapper {
+    text-align: center;
+    margin: 100px 0;
+}
+
+/* profileのスタイルシート */
+
+.item_list {
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.item_list b {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.item_list p {
+    font-size: 15px;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon_list {
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro_icon {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+.git_icon {
+    width: 50px;
+    height: auto;
+}
+
+.twitter_icon {
+    width: 50px;
+    height: auto;
+}
+
+
+.icon_list li {
+    margin-right: 22px;
+}
+
+.icon_list li:last-child {
+    margin-right: 0;
+}
+
+/* worksのスタイルシート */
+
+
+.works_wrapper {
+    margin: 80px;
+}
+
+.works_list {
+    list-style: none;
+    width: 100%;
+    max-width: 1076px;
+    margin: 30px auto;
+    padding: 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+.works_list li {
+    display: block;
+    width: 100%;
+    max-width: 348px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.works_list li:last-child{
+    margin-right: 0;
+}
+
+.work_icon {
+    width: 90%;
+    border: 1px solid #CCC;
+}
+
+.works_list li h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.works_list li span {
+    font-size: 18px;
+}
+
+.works_list li .link {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.works_list li .link a {
+    background-color: rgb(226,226,226);
+    padding: 5px 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* footerの設定 */
+
+.block_footer p{
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    margin: 50px 0 20px;
+}
+
+/* タブレット用のスタイルシート
+
+@media screen and (max-width: 767px) {
+
+} */
+
+/* スマホ用のスタイルシート */
+
+@media screen and (max-width: 812px) {
+    body {
+        min-width: 100%;
+    }
+
+/* hederのスタイルシート */
+
+    .header_wrapper {
+        padding: 0 10px 10px;
+        box-shadow: 0 8px 8px -5px rgba(204,204,204,0.3);
+    }
+
+    .header_wrapper a {
+        font-size: 31px;
+    }
+
+/* mainのスタイルシート */
+
+.main_wrapper {
+    margin: 50px 0;
+}
+
+/* profileのスタイルシート */
+
+.profile_wrapper {
+    padding: 0 10px;
+}
+
+.item_list {
+        max-width: 100%;
+    }
+
+.item_list b {
+    font-size: 18px;
+}
+
+.icon_list {
+        max-width: 100%;
+    }
+
+.icon_list li {
+    margin-right: 25pc;
+}
+
+/* workのスタイルシート */
+
+.works_wrapper {
+    margin: 60px 0 0;
+    padding: 0 10px;
+}
+
+.works_list {
+    max-width: 100%;
+}
+
+.works_list li {
+    max-width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.works_list span {
+    font-size: 14px;
+}
+
+
+}
+
+
